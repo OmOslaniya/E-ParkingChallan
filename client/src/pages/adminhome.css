@@ -1,0 +1,45 @@
+.main-container {
+    display: flex;
+}
+
+.sidebar-container {
+    height: 100vh;
+    background-color: black;
+}
+
+.click-container {
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+
+.option-container {
+    padding: 1vw;
+    font-size: 25px;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+    border: none;
+    border-bottom: 1px solid rgb(39, 38, 38);
+}
+
+.option-container:hover {
+    border: none;
+    background-color: rgb(39, 38, 38);
+}
+
+.navigation-container {
+    display: flex;
+    padding: 5px;
+    justify-content: space-between;
+    background-color: beige;
+    height: 9vh;
+}
+
+
+/* .logo-container {
+    height: 9vh;
+    font-size: 25px;
+    justify-content: center;
+    background-color: antiquewhite;
+} */

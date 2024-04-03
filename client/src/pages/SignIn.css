@@ -1,0 +1,55 @@
+body,
+html {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+
+/* Apply overflow: hidden only for screens larger than 768px */
+
+@media (min-width: 769px) {}
+
+.gradient-custom-2 {
+    /* fallback for old browsers */
+    background: #4d74de;
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, #a5c7f3, #539ad0, #1b86b4, #076ebe);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: -webkit-linear-gradient(to right, #a5c7f3, #539ad0, #1b86b4, #076ebe);
+}
+
+@media (min-width: 768px) {
+    .gradient-form {
+        height: 100vh !important;
+    }
+}
+
+@media (min-width: 769px) {
+    .gradient-custom-2 {
+        border-top-right-radius: .3rem;
+        border-bottom-right-radius: .3rem;
+    }
+}
+
+.log {
+    color: rgb(104, 85, 224);
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(104, 85, 224, 1);
+}
+
+button:hover {
+    color: white;
+    box-shadow: 0 0 20px rgba(12, 12, 14, 0.6);
+    background-color: rgba(104, 85, 224, 1);
+}
+
+.text-center a {
+    display: block;
+    margin-top: 10px;
+}
+
+.white-text {
+    color: rgb(8, 8, 8);
+    text-align: center;
+    font-style: oblique;
+}

@@ -1,0 +1,37 @@
+/* History.css */
+
+.custom-card {
+    border: 2px solid #17a2b8;
+    border-radius: 10px;
+    background-color: #f8f9fa;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+    /* Add relative positioning to the card */
+}
+
+.custom-card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: scale(1.02);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.status-circle-wrapper {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    /* Adjust the top and right positions as needed */
+}
+
+.status-circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}

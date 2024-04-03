@@ -1,0 +1,145 @@
+.animated {
+    animation-duration: 1s;
+}
+
+.fadeInDown {
+    animation-name: fadeInDown;
+}
+
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translate3d(0, -50%, 0);
+    }
+    to {
+        opacity: 1;
+        transform: none;
+    }
+}
+
+.features-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.feature {
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    transition: transform 0.3s ease-in-out;
+}
+
+.feature:hover {
+    transform: scale(1.05);
+}
+
+.feature-icon {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+
+/* Updated Navigation Bar Styles */
+
+.navbar {
+    background-color: #343a40;
+    /* Change the background color */
+}
+
+.navbar-brand {
+    color: #fff;
+    /* Change the text color */
+    font-size: 1.5rem;
+}
+
+.navbar-nav .nav-link {
+    color: #fff;
+    /* Change the text color */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #17a2b8;
+    /* Change the hover color */
+}
+
+.right-oriented-logout-button {
+    float: right;
+    /* or use text-align: right; */
+    margin-right: 75px;
+    margin-top: 40px;
+}
+
+
+/* LogoutButton.css */
+
+.logout-button-container {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+    margin-top: 70px;
+    margin-right: 60px;
+}
+
+.logout-button {
+    background: none;
+    color: #333;
+    border: 2px solid #333;
+    border-radius: 25px;
+    padding: 8px 16px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+.logout-button:hover {
+    background: #333;
+    color: #fff;
+    border-color: #fff;
+}
+
+.logout-icon {
+    margin-right: 8px;
+}
+
+
+/* LogoutButton.css */
+
+.logout-button-container {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+.logout-button {
+    background: none;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 25px;
+    padding: 8px 16px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+.logout-button:hover {
+    background: #fff;
+    color: #333;
+    border-color: #333;
+}
+
+.logout-icon {
+    margin-right: -5px;
+}
